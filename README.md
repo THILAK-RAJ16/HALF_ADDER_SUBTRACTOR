@@ -16,6 +16,9 @@ Software – Quartus prime Theory Adders are digital circuits that carry out the
 
 Half adder is a combinational circuit that performs simple addition of two binary numbers. The input variables designate the augend and addend bits; the output variables produce the sum and carry. It is necessary to specify two output variables because the result may consist of two binary digits.
 
+![WhatsApp Image 2024-12-21 at 09 37 42_81ca9c31](https://github.com/user-attachments/assets/716bee5a-edf5-4263-927c-ea3b786ae05a)
+
+
 Sum = A’B+AB’ =A ⊕ B Carry = AB
 
 ![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/bd4a0b2c-cdbc-4184-ab08-81578f121e1f)
@@ -25,6 +28,9 @@ Figure -01 HALF ADDER
 **Half Subtractor**
 
 The half-subtractor is a combinational circuit which is used to perform subtraction of two bits. It has two inputs, X (minuend) and Y (subtrahend) and two outputs D (difference) and B (borrow). To perform x - y, we have to check the relative magnitudes of x and y. If x ;;, y, we have three possibilities: 0 - 0 = 0, 1 - 0 = 1, and 1 - I = 0. The result is called the difference bit. If x < y, we have 0 - I, and it is necessary to borrow a 1 from the next higher stage. The I borrowed from the next higher stage adds 2 to the minuend bit, just as in the decimal system a borrow adds 10 to a minuend digit. With the minuend equal to 2, the difference becomes 2 - I = 1. The half-subtractor needs two outputs. One output generates the difference and will be designated by the symbol D. The second output, designated B for borrow, generates the binary signal that informs the next stage that a I has been borrowed. 
+
+![WhatsApp Image 2024-12-21 at 09 36 47_51967542](https://github.com/user-attachments/assets/7551aae7-e387-4b02-9bc7-9e6c2a9a91ed)
+
 
 Diff = A’B+AB’ =A ⊕ B
 Borrow = A’B
@@ -50,9 +56,11 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
-/* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
+Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: Thilak raj .PRegisterNumber:24900585*/
+Developed by: Thilak raj .P
+
+RegisterNumber:24900585
 
 **RTL**
 ![Screenshot 2024-11-05 135522](https://github.com/user-attachments/assets/9507253b-a57b-47e4-a83e-eccd455a4904)
