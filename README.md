@@ -42,7 +42,9 @@ Figure -02 HALF Subtractor
 **Truthtable**
 
 Half subtractor
+
 ![WhatsApp Image 2024-12-21 at 09 36 46_6c621b77](https://github.com/user-attachments/assets/752fa2bc-8328-44b3-8415-8bba2eedf137)
+
 Half adder
 
 ![WhatsApp Image 2024-12-21 at 09 37 41_42367385](https://github.com/user-attachments/assets/78eab8af-ce06-4387-995e-9771cec25e05)
@@ -93,7 +95,8 @@ RegisterNumber:24900585
 
 **Output/TIMING Waveform**
 ![Screenshot 2024-11-05 135746](https://github.com/user-attachments/assets/0887f9f3-86b1-4b13-a1c8-663f3f44d17b)
-![Screenshot 2024-11-05 142436](https://github.com/user-attachments/assets/42ba636e-c30f-4b79-bf7e-119899e45e93)
+![Screenshot 2024-11-05 140623](https://github.com/user-attachments/assets/8cfa556e-ad2a-4a7c-8218-a1abbd0b2b12)
+
 
 **Result:**
 To design a half adder and half subtractor circuit and verify its truth table in Quartus using Verilog programming is verified.
