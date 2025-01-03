@@ -67,6 +67,9 @@ Half adder
 **Program:**
 
 Program to design a half adder and half subtractor circuit and verify its truth table in quartus using Verilog programming.
+
+**Half Adder**
+
 ```
 module Huff_adder(a,b,sum,carry);
 input a,b;
@@ -75,6 +78,7 @@ assign sum=(a^b);
 assign carry=(a&b);
 endmodule
 ```
+**Half Subtractor**
 ```
 module half_sub(a,b,diff,borr);
 input a,b;
@@ -89,12 +93,18 @@ Developed by: Thilak raj .P
 RegisterNumber:24900585
 
 **RTL**
+
+**Half Adder**
 ![Screenshot 2024-11-05 135522](https://github.com/user-attachments/assets/9507253b-a57b-47e4-a83e-eccd455a4904)
+**Half Subtractor**
 ![Screenshot 2024-11-05 140919](https://github.com/user-attachments/assets/818b4fe7-c0b5-46d3-8ab8-5c82f58f76f8)
 
 
 **Output/TIMING Waveform**
+
+**Half Adder**
 ![Screenshot 2024-11-05 135746](https://github.com/user-attachments/assets/0887f9f3-86b1-4b13-a1c8-663f3f44d17b)
+**Half Subtractor**
 ![Screenshot 2024-11-05 140623](https://github.com/user-attachments/assets/8cfa556e-ad2a-4a7c-8218-a1abbd0b2b12)
 
 
